@@ -1,0 +1,15 @@
+package DSA;
+
+public class Solution744 {
+    static char nextGreatestLetter(char[] letters, char target) {
+    	char min = Character.MAX_VALUE;
+        for(char ch : letters) {
+        	if(ch > target && min > ch)
+        		min = ch;
+        }
+        return min;
+    }
+    public static void main (String[] args) {
+    	char result = nextGreatestLetter({'c','f','j'} , 'a');
+    }
+}
