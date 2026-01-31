@@ -1,4 +1,4 @@
-package DSA;
+package day1;
 public class Solution1 {
     public static int[] twoSum(int[] nums, int target) {
 		int res[] = {0,0};

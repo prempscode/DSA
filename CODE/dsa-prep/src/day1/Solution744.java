@@ -1,4 +1,4 @@
-package DSA;
+package day1;
 
 public class Solution744 {
     public static char nextGreatestLetter(char[] letters, char target) {
