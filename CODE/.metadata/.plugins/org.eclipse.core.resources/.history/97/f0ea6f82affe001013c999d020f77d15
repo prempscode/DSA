@@ -1,0 +1,16 @@
+package DSA;
+
+public class Solution1 {
+    public static int[] twoSum(int[] nums, int target) {
+		int res[] = {0,0};
+		
+    	
+    	
+    	
+    	return nums;
+        
+    }
+    public static void main(String[] args) {
+    	
+    }
+}
